@@ -1,19 +1,30 @@
 PODS:
-  - NSLogger (1.7.0):
-    - NSLogger/Standard (= 1.7.0)
-  - NSLogger/Standard (1.7.0)
-  - XCGLogger (4.0.0):
-    - XCGLogger/Core (= 4.0.0)
-  - XCGLogger/Core (4.0.0)
+  - NSLogger (1.9.7):
+    - NSLogger/ObjC (= 1.9.7)
+  - NSLogger/ObjC (1.9.7)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - XCGLogger (7.0.0):
+    - XCGLogger/Core (= 7.0.0)
+  - XCGLogger/Core (7.0.0):
+    - ObjcExceptionBridging
 
 DEPENDENCIES:
-  - NSLogger (>= 1.5)
-  - XCGLogger (>= 4)
+  - NSLogger (>= 1.9)
+  - XCGLogger (>= 7)
+
+SPEC REPOS:
+  trunk:
+    - NSLogger
+    - ObjcExceptionBridging
+    - XCGLogger
 
 SPEC CHECKSUMS:
-  NSLogger: daa17368272ddf10a0850c218fe49de23b50f2eb
-  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
+  NSLogger: cf3013a4fba189f631f07e6c3d5b8ce2b209654b
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  XCGLogger: 0434f15e3909cdc450bb63faf638b8792ab782ab
 
-PODFILE CHECKSUM: d2878a795111abadb02d79b66c6c639ca3bda628
+PODFILE CHECKSUM: d9d74ac9e77701fc7d81eedb2d7518b3abf903bd
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.8.4
